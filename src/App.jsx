@@ -1,5 +1,6 @@
 
 import './App.css'
+// import FetchingPhoto from './componente/UseEffect/FetchingPhoto'
 import FetchingData from './componente/UseEffect/FetchingData'
 // import UseEffect from './componente/UseEffect/UseEffect'
 // import UseState from './componente/UseState/UseState';
@@ -20,6 +21,7 @@ function App() {
       {/* <UseState></UseState> */}
       {/* <UseEffect></UseEffect> */}
       <FetchingData></FetchingData>
+      {/* <FetchingPhoto></FetchingPhoto> */}
     </div>
   )
 }
