@@ -1,7 +1,8 @@
 
 import './App.css'
+import FakeData from './componente/Fake Data/FakeData'
 // import FetchingPhoto from './componente/UseEffect/FetchingPhoto'
-import FetchingData from './componente/UseEffect/FetchingData'
+// import FetchingData from './componente/UseEffect/FetchingData'
 // import UseEffect from './componente/UseEffect/UseEffect'
 // import UseState from './componente/UseState/UseState';
 // import Hero from './componente/Hero/Hero'
@@ -14,13 +15,13 @@ function App() {
 
   return (
     <div>
-      
+      <FakeData></FakeData>
       {/* <Navigation></Navigation>
       <Hero></Hero>
       <Products></Products> */}
       {/* <UseState></UseState> */}
       {/* <UseEffect></UseEffect> */}
-      <FetchingData></FetchingData>
+      {/* <FetchingData></FetchingData> */}
       {/* <FetchingPhoto></FetchingPhoto> */}
     </div>
   )
